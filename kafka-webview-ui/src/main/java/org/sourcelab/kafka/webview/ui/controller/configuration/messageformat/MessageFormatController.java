@@ -65,7 +65,7 @@ import java.util.Optional;
  * Controller for MessageFormat CRUD operations.
  */
 @Controller
-@RequestMapping("/configuration/messageFormat")
+@RequestMapping("/kafkaWebui/configuration/messageFormat")
 public class MessageFormatController extends BaseController {
 
     @Autowired

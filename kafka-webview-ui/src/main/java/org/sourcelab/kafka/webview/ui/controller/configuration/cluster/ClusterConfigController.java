@@ -57,7 +57,7 @@ import java.util.Optional;
  * Controller for Cluster CRUD operations.
  */
 @Controller
-@RequestMapping("/configuration/cluster")
+@RequestMapping("/kafkaWebui/configuration/cluster")
 public class ClusterConfigController extends BaseController {
     private static final Logger logger = LoggerFactory.getLogger(ClusterConfigController.class);
 

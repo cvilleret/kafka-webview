@@ -54,7 +54,7 @@ import java.util.stream.Collectors;
  * Controller for Stream configuration.
  */
 @Controller
-@RequestMapping("/configuration/stream")
+@RequestMapping("/kafkaWebui/configuration/stream")
 public class StreamConfigController extends BaseController {
 
     @Autowired

@@ -63,7 +63,7 @@ import java.util.stream.Collectors;
  * Controller for CRUD Operations on Filters.
  */
 @Controller
-@RequestMapping("/configuration/filter")
+@RequestMapping("/kafkaWebui/configuration/filter")
 public class FilterConfigController extends BaseController {
 
     @Autowired

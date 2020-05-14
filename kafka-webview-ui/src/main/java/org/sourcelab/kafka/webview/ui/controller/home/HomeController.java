@@ -49,7 +49,7 @@ public class HomeController extends BaseController {
     /**
      * Once things are setup, we'll redirect the home page to view/index.
      */
-    @RequestMapping(path = "/", method = RequestMethod.GET)
+    @RequestMapping(path = "/kafkaWebui/", method = RequestMethod.GET)
     public String home(final Model model) {
         // Look for views
         final long numberOfViews = viewRepository.count();
@@ -74,7 +74,7 @@ public class HomeController extends BaseController {
     /**
      * Provides in App Help documentation.
      */
-    @RequestMapping(path = "/help", method = RequestMethod.GET)
+    @RequestMapping(path = "/kafkaWebui/help", method = RequestMethod.GET)
     public String help(final Model model) {
         // Setup breadcrumbs
         new BreadCrumbManager(model)

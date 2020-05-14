@@ -52,7 +52,7 @@ import java.util.Optional;
  * Controller for User entity CRUD.
  */
 @Controller
-@RequestMapping("/configuration/user")
+@RequestMapping("/kafkaWebui/configuration/user")
 public class UserController extends BaseController {
 
     @Autowired

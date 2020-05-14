@@ -58,7 +58,7 @@ import java.util.Optional;
  * Web socket controller end points.
  */
 @Controller
-@RequestMapping("/stream")
+@RequestMapping("/kafkaWebui/stream")
 public class StreamController extends BaseController {
     @Autowired
     private AppProperties appProperties;

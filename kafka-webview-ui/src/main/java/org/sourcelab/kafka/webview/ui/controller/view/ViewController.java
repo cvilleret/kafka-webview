@@ -48,7 +48,7 @@ import java.util.Optional;
  * Controller for consuming/browsing a topic/view.
  */
 @Controller
-@RequestMapping("/view")
+@RequestMapping("/kafkaWebui/view")
 public class ViewController extends BaseController {
     @Autowired
     private ViewRepository viewRepository;

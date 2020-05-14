@@ -46,7 +46,7 @@ import java.util.Optional;
  * Controller for viewing Cluster details.
  */
 @Controller
-@RequestMapping("/cluster")
+@RequestMapping("/kafkaWebui/cluster")
 public class ClusterController extends BaseController {
 
     @Autowired

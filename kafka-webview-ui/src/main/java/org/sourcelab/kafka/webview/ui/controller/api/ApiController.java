@@ -88,7 +88,7 @@ import java.util.Set;
  * Handles API requests.
  */
 @Controller
-@RequestMapping("/api")
+@RequestMapping("/kafkaWebui/api")
 public class ApiController extends BaseController {
     @Autowired
     private ViewRepository viewRepository;

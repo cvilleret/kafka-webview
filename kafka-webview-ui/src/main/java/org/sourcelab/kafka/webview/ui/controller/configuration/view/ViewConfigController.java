@@ -73,7 +73,7 @@ import java.util.stream.Collectors;
  * Controller for CRUD over View entities.
  */
 @Controller
-@RequestMapping("/configuration/view")
+@RequestMapping("/kafkaWebui/configuration/view")
 public class ViewConfigController extends BaseController {
 
     @Autowired

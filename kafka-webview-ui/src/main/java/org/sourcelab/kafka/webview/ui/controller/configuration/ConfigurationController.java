@@ -35,7 +35,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
  * Controller for Configuration top level actions.
  */
 @Controller
-@RequestMapping("/configuration")
+@RequestMapping("/kafkaWebui/configuration")
 public class ConfigurationController extends BaseController {
 
     /**
